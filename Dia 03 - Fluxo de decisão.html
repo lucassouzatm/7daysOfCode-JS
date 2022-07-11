@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dia 03 - Fluxo de decisão</title>
+  </head>
+  <body>
+    <script>
+      const area = prompt(
+        "Você quer seguir para área de 'Front-End' ou de 'Back-End'? Digite o nome da área:"
+      );
+      let linguagem = "";
+
+      if (area == "Front-End") {
+        alert("Muito bom! Estude React ou Vue para se aprofundar mais!");
+      } else if (area == "Back-End") {
+        alert("Muito bom! Estude C# ou Java para se aprofundar mais!");
+      } else {
+        alert("Você não inseriu um valor válido!");
+      }
+
+      const futuro = prompt(
+        `E qual carreira gostaria de seguir ? Digite 1 para especializando em ${area} ou digite 2 se deseja ser Fullstack?`
+      );
+
+      if (futuro == 1) {
+        alert(
+          `Que demais continue focado no ${area} e estude muito CSS, HTML e JS que vai longe!!`
+        );
+      } else if (futuro == 2) {
+        alert(`Isso ai estude muito além de ${area} que chegará lá!!`);
+      } else {
+        alert("Você não inseriu um valor válido!");
+      }
+
+      let msg = prompt(
+        "Tem mais alguma tecnologia que você gostaria de aprender? Digite 'ok' em caso positivo."
+      );
+      while (msg === "ok") {
+        let novaTecnologia = prompt("Qual?");
+        alert(
+          `${novaTecnologia} é realmente uma tecnologia muito legal! Te aconselho a entrar no site da Alura e dar uma olhada lá!!`
+        );
+        msg = prompt(
+          "Tem mais alguma tecnologia que você gostaria de aprender? Digite 'ok' em caso positivo."
+        );
+      }
+    </script>
+  </body>
+</html>
