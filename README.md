@@ -1,8 +1,8 @@
  **#7DaysOfCode | [@Alura](https://7daysofcode.io/matricula/logica-programacao)**
  
- #Desafio da Alura 7DaysOfCode Lógica de Programação com Javascript proposto pela [Rafaela Ballerini](https://github.com/rafaballerini)
+ ## #7DaysOfCode Lógica de Programação com Javascript proposto pela [Rafaela Ballerini](https://github.com/rafaballerini)
 
-* ##  Dia 01 - Operações Booleanas
+* ###  Dia 01 - Operações Booleanas
 
 Já no primeiro dia, você vai ver como o que parece ser um simples detalhe pode fazer toda a diferença no seu código e trazer o resultado esperado e correto ou, dependendo de como você implementar o código, o mesmo comando pode trazer um resultado não esperado. Nesse dia, você aprenderá mais sobre o comando if e operações booleanas dentro do JS
 
